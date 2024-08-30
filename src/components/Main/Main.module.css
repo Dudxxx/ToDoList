@@ -1,0 +1,50 @@
+.Main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main form {
+    background-color: rgb(160, 157, 157);
+    width: 23%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.Main input {
+    border: none;
+    margin-right: 1rem;
+    border-radius: 0.3rem;
+}
+
+.Main button {
+    width: 1.5rem;
+}
+
+.Main .List {
+    background-color: rgb(160, 157, 157);
+    list-style-type: none;
+    padding: 0;
+    width: 23%;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Main .List li {
+    margin: 0.5rem 0;
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Main .List li button {
+    margin-left: 0.5rem;
+}
